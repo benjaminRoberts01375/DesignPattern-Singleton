@@ -1,6 +1,6 @@
-public class Main {
+public class MainWindow {
     public static void main(String[] args) {
-        Settings settings = Settings.getSettings();
+        private Settings settings = Settings.getSettings();
         System.out.println("Theme at boot: " + settings.getTheme());
         System.out.println("Keymap at boot: " + settings.getKeymap());
 
